@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circular Progressbar</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="circular">
+        <div class="inner"></div>
+        <div class="number"><i class="fas fa-arrow-right"></i></div>
+        <div class="circle">
+            <div class="bar left">
+                <div class="progress"></div>
+            </div>
+            <div class="bar right">
+                <div class="progress"></div>
+            </div>
+        </div>
+    </div>
+    <!-- <script>
+        const numb = document.querySelector(".number");
+        let counter = 0;
+
+        setInterval(() => {
+            if (counter == 100) {
+                clearInterval();
+            }
+
+            else {
+                counter += 1;
+                numb.textContent = counter + "%";
+            }
+        }, 66);
+    </script> -->
+</body>
+
+</html>
